@@ -1,0 +1,37 @@
+/* Post.css */
+.post-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #e0e0e084;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-action-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #958400ad;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.post-action-btn:hover {
+  background-color: #c8b101ad;
+}

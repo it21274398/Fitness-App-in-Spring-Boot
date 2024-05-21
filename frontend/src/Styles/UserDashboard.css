@@ -1,0 +1,39 @@
+/* UserDashboard.css */
+
+/* User dashboard container */
+.user-dashboard-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* User dashboard heading */
+.user-dashboard-heading {
+  font-size: 24px;
+  color: #2c2c2c;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+
+/* User dashboard content */
+.user-dashboard-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Section styles */
+.user-dashboard-section {
+  flex-basis: 30%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #0000005d;
+}
+
+/* Section heading styles */
+.section-heading {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}

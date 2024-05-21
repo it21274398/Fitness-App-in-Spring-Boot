@@ -1,0 +1,53 @@
+.Login {
+  background-image: url("https://img.freepik.com/premium-photo/gym-equipment-barbell-fitness-studio-ai_894067-8944.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set height to fill the entire viewport */
+  display: flex;
+  justify-content: center; /* Center contents horizontally */
+  align-items: center; /* Center contents vertically */
+}
+
+.login-container {
+  background-image: linear-gradient(to bottom right, #232526, #414345);
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #050029;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Your existing styles */
+.login-heading {
+  font-family: monospace;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #b9b9bc;
+}
+
+.login-input {
+  width: calc(100% - 20px);
+  padding: 13px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 70%;
+  padding: 10px;
+  background-color: #958400ad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.login-button:hover {
+  background-color: #c8b101ad;
+}

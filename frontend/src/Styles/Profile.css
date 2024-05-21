@@ -1,0 +1,51 @@
+/* Additional styles for Profile */
+
+/* Profile container */
+.profile-container {
+  border-radius: 8px; /* Add rounded corners */
+  overflow: hidden; /* Hide overflow content */
+}
+
+/* Profile heading */
+.profile-heading {
+  font-size: 24px; /* Increase font size */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Increase spacing below heading */
+}
+
+/* Profile details */
+.profile-details {
+  padding: 20px; /* Add padding */
+}
+
+/* Profile bio */
+.profile-bio {
+  font-size: 18px; /* Maintain font size */
+  margin-bottom: 15px; /* Increase spacing below bio */
+}
+
+/* Profile email */
+.profile-email {
+  font-size: 16px; /* Maintain font size */
+  color: #002650ad; /* Blue color for email */
+  text-decoration: none; /* Remove underline */
+}
+
+.profile-email:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Additional profile information */
+.profile-info {
+  font-size: 16px; /* Maintain font size */
+  margin-bottom: 10px; /* Maintain spacing */
+}
+
+.profile-info-label {
+  font-weight: bold; /* Bold labels */
+  margin-bottom: 5px; /* Decrease spacing below label */
+}
+
+.profile-info-value {
+  margin-bottom: 10px; /* Maintain spacing */
+}
